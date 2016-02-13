@@ -90,7 +90,6 @@ class SkiingInSingapore:
 		if len(self.footpath)>0:
 			self.pathDic[self.indexPath]=','.join(str(e) for e in self.footpath)
 
-			self.itung = self.itung + 1
 			self.indexPath = self.indexPath + 1
 			if removePath != self.start_path:
 				self.footpath.remove(removePath)
